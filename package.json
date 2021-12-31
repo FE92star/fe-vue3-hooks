@@ -4,7 +4,8 @@
   "description": "collection of vue3 hooks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite ./examples -c ./examples/vite.config.ts"
   },
   "keywords": [
     "vue3",
@@ -14,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.5.4",
+    "vite": "^2.7.10",
     "vue": "3.2.26"
   }
 }
